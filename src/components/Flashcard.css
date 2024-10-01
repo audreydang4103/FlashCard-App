@@ -1,0 +1,58 @@
+.flashcard {
+  width: 300px;
+  min-height: 200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fafafa;
+  border: 2px solid #333;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+
+}
+
+.flashcard.History {
+  background-color: #d4edda;
+  border-color: #28a745;
+}
+
+.flashcard.Math {
+  background-color: #ffeeba;
+  border-color: #ffc107;
+}
+
+.flashcard.Science {
+  background-color: #f8d7da;
+  border-color: #dc3545;
+}
+
+
+.flashcard.English {
+  background-color: #f8d7da;
+  border-color: #dc3545;
+}
+
+.flashcard-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.flashcard p {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.flashcard:not(.flashcard-flipped) {
+  transform: rotateX(0deg);
+  transition: transform 0.05s ease-in-out;
+}
+
+.flashcard-flipped {
+  transform: rotateX(360deg);
+  transition: transform 0.05s ease-in-out;
+}
