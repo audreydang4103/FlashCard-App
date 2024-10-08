@@ -50,16 +50,18 @@ function App() {
     }
   };
 
+
   const [correctCards, setCorrectCards] = useState(new Set());
 
   const onSubmitAnswer = (userAnswer) => {
     if (userAnswer.toLowerCase() === currentCard.answer.toLowerCase()) {
       setFeedback('Correct!');
-      if (!correctCards.has(currentCard.id)) {
-        setCorrectCards(new Set([...correctCards, currentCard.id]));
-        setStreak(streak + 1);
-        setLongestStreak(Math.max(streak + 1, longestStreak));
-      }
+      setCorrectCards(new Set([...correctCards, currentCard.id]));
+      setStreak(prevStreak => {
+        const newStreak = prevStreak + 1;
+        setLongestStreak(prevLongestStreak => Math.max(newStreak, prevLongestStreak));
+        return newStreak;
+      });
     } else {
       setFeedback('Incorrect. Try again next time.');
       setStreak(0);
