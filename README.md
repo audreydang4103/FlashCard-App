@@ -32,3 +32,8 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented required features:
 
 ![](https://github.com/audreydang4103/Project2-FlashCards/blob/main/Kapture%202024-10-01%20at%2000.32.19.gif)
+
+![](https://github.com/audreydang4103/Project2-FlashCards/blob/main/Project3.gif)
+
+
+
