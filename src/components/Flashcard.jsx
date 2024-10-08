@@ -8,7 +8,7 @@ function Flashcard({ card, resetFlip, onSubmitAnswer, feedback }) {
     useEffect(() => {
         setFlipped(false);
         setUserAnswer('');
-    }, [resetFlip, card, feedback]);
+    }, [resetFlip, card]);
 
     const handleClick = () => {
         setFlipped(!flipped);
@@ -26,7 +26,6 @@ function Flashcard({ card, resetFlip, onSubmitAnswer, feedback }) {
     const subjectClass = card.subject ? `flashcard ${card.subject}` : 'flashcard';
     const flipClass = flipped ? 'flashcard-flipped' : '';
     const feedbackClass = feedback === 'Correct!' ? 'input-small correct' : feedback === 'Incorrect. Try again.' ? 'input-small incorrect' : 'input-small';
-
     return (
         <>
             <div className={`${subjectClass} ${flipClass}`} onClick={handleClick}>
