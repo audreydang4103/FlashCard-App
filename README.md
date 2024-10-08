@@ -31,9 +31,11 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-![](https://github.com/audreydang4103/Project2-FlashCards/blob/main/Kapture%202024-10-01%20at%2000.32.19.gif)
+![](https://github.com/audreydang4103/Project2-FlashCards/blob/main/Project3.gif)
 
-<img src="https://raw.githubusercontent.com/audreydang4103/Project2-FlashCards/main/Project3.gif" width="600" height="600" />
+
+
+
 
 
 
