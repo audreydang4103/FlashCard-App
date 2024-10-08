@@ -56,3 +56,42 @@
   transform: rotateX(360deg);
   transition: transform 0.05s ease-in-out;
 }
+
+.label-small {
+  font-size: 0.8em;
+  font-weight: bold
+}
+
+.input-small.correct {
+  border: 1px solid #28a745;
+  background-color: #d4edda;
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.input-small.incorrect {
+  border: 1px solid #dc3545;
+  background-color: #f8d7da;
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.input-small {
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  background-color: #fff;
+}
+
+.button-small {
+  margin-top: 10px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
