@@ -1,9 +1,14 @@
+# React + Vite
 # Web Development Project 2 - *Comprehensive Quiz*
 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 Submitted by: **Audrey Dang**
 
+Currently, two official plugins are available:
 This web app: **This web app is a Comprehensive Quiz designed to test your knowledge across various subjects such as History, Math, Science, and English.**
 
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 Time spent: **8** hours spent in total
 
 ## Required Features
@@ -31,6 +36,4 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-![](https://github.com/audreydang4103/Project2-FlashCards/blob/main/Project3.gif)
-
-
+![](https://github.com/audreydang4103/Project2-FlashCards/blob/main/Kapture%202024-10-01%20at%2000.32.19.gif)
