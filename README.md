@@ -1,10 +1,4 @@
-# Web Development Project 3 - *Comprehensive Quiz*
-
-Submitted by: **Audrey Dang**
-
 This web app: **This web app is a Comprehensive Quiz designed to test your knowledge across various subjects such as History, Math, Science, and English.**
-
-Time spent: **8** hours spent in total
 
 ## Required Features
 
